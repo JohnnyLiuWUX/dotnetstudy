@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "uxM2olSmkeY9WbkJy7ckEY9Zn958KdIiJFRTxSmIv6049KlBraO3L3zYbzQJx9oYCD17QsilCZ7JQKwzJuoGMg==",
+  "success": true,
+  "projectFilePath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Johnny\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "C:\\Users\\Johnny\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\Johnny\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\3.1.3\\microsoft.extensions.configuration.environmentvariables.3.1.3.nupkg.sha512",
+    "C:\\Users\\Johnny\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}

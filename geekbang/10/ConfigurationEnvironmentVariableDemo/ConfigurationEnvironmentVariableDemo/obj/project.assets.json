@@ -26,16 +26,16 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.CommandLine/3.1.3": {
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/3.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "3.1.3"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.CommandLine.dll": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.CommandLine.dll": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         }
       },
       "Microsoft.Extensions.Primitives/3.1.3": {
@@ -82,20 +82,20 @@
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.CommandLine/3.1.3": {
-      "sha512": "qcwjfZRYPcPxwpOJmIiYwfJnD7Raxfol5Csx6P2k7Or4bPUBjSJsA0AkoodNoET/h9MHhqgYpLn7VZ5dNMfnOg==",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/3.1.3": {
+      "sha512": "t5BD/niDDCbandVbtzNsiDH8AayQ+YX/0WOzbQTg7pd/NnPQmXovrgwOGiwPwvCa8Pjk2MlFjV0qLlttfesUgA==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.commandline/3.1.3",
+      "path": "microsoft.extensions.configuration.environmentvariables/3.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "microsoft.extensions.configuration.commandline.3.1.3.nupkg.sha512",
-        "microsoft.extensions.configuration.commandline.nuspec"
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "microsoft.extensions.configuration.environmentvariables.3.1.3.nupkg.sha512",
+        "microsoft.extensions.configuration.environmentvariables.nuspec"
       ]
     },
     "Microsoft.Extensions.Primitives/3.1.3": {
@@ -119,7 +119,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.Extensions.Configuration >= 3.1.3",
       "Microsoft.Extensions.Configuration.Abstractions >= 3.1.3",
-      "Microsoft.Extensions.Configuration.CommandLine >= 3.1.3"
+      "Microsoft.Extensions.Configuration.EnvironmentVariables >= 3.1.3"
     ]
   },
   "packageFolders": {
@@ -128,11 +128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\09\\sample1.csproj",
-      "projectName": "sample1",
-      "projectPath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\09\\sample1.csproj",
+      "projectUniqueName": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo.csproj",
+      "projectName": "ConfigurationEnvironmentVariableDemo",
+      "projectPath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo.csproj",
       "packagesPath": "C:\\Users\\Johnny\\.nuget\\packages\\",
-      "outputPath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\09\\obj\\",
+      "outputPath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Johnny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -167,7 +167,7 @@
             "target": "Package",
             "version": "[3.1.3, )"
           },
-          "Microsoft.Extensions.Configuration.CommandLine": {
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": {
             "target": "Package",
             "version": "[3.1.3, )"
           }

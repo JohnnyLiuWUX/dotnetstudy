@@ -11,9 +11,9 @@ namespace sample1
 
             var builder = new ConfigurationBuilder();
 
-            builder.AddCommandLine(args);
+            //builder.AddCommandLine(args);
 
-            #region
+            #region 命令替换
             var mapper = new Dictionary<string, string> { { "-k1", "CommandLineKey1" } };
             builder.AddCommandLine(args, mapper);
             #endregion
@@ -22,7 +22,7 @@ namespace sample1
 
             Console.WriteLine($"CommandLineKey1:{configurationRoot["CommandLineKey1"]}");
             Console.WriteLine($"CommandLineKey2:{configurationRoot["CommandLineKey2"]}");
-            Console.ReadKey();
+            //Console.ReadKey();
             //Console.WriteLine("Hello World!");
         }
     }

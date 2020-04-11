@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\09\\sample1.csproj": {}
+    "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo.csproj": {}
   },
   "projects": {
-    "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\09\\sample1.csproj": {
+    "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\09\\sample1.csproj",
-        "projectName": "sample1",
-        "projectPath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\09\\sample1.csproj",
+        "projectUniqueName": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo.csproj",
+        "projectName": "ConfigurationEnvironmentVariableDemo",
+        "projectPath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo.csproj",
         "packagesPath": "C:\\Users\\Johnny\\.nuget\\packages\\",
-        "outputPath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\09\\obj\\",
+        "outputPath": "D:\\Johnny\\DEV\\GitHub\\dotnetstudy\\geekbang\\10\\ConfigurationEnvironmentVariableDemo\\ConfigurationEnvironmentVariableDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Johnny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,7 +46,7 @@
               "target": "Package",
               "version": "[3.1.3, )"
             },
-            "Microsoft.Extensions.Configuration.CommandLine": {
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
               "target": "Package",
               "version": "[3.1.3, )"
             }
